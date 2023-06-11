@@ -1,0 +1,17 @@
+npm -> Node Package Manager.
+npx -> Execute node package.
+
+-- Empezar un nuevo proyecto
+    npm init
+
+-- Ejecutar node
+    npm run start
+
+
+-- Para generar el .exe
+    1ºVez en un proyecto
+        npm install --save-dev @electron-forge/cli
+        npx electron-forge import
+
+    npm run make
+
