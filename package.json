@@ -4,7 +4,7 @@
   "description": "Book register control",
   "main": "main.js",
   "scripts": {
-    "start": "electron-forge start",
+    "start": "cd ng && ng build --output-path dist --base-href . && cd .. && electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
     "make": "electron-forge make"

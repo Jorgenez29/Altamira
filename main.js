@@ -10,7 +10,7 @@ function createWindow () {
     }
   })
 
-  win.loadFile('index.html')
+  win.loadFile('ng/dist/index.html')
 }
 
 app.whenReady().then(() => {
