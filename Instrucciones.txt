@@ -15,3 +15,5 @@ npx -> Execute node package.
 
     npm run make
 
+-- Empezar angular
+    ng serve
