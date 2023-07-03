@@ -13,7 +13,12 @@ npx -> Execute node package.
         npm install --save-dev @electron-forge/cli
         npx electron-forge import
 
+    
+    npm run start
     npm run make
 
 -- Empezar angular
     ng serve
+
+
+-> Instalar bootstrap : Video 13

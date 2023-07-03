@@ -1,19 +1,32 @@
-<div class="container">  
-    
-    <h1> Display Data from Json File in Angular 9 </h1>  
-      
-    <table class="table table-striped">  
-      <thead>  
-          <tr>  
-            <th>ID</th>  
-            <th>Name</th>  
-          </tr>  
-      </thead>  
-      <tbody>  
-        <tr *ngFor="let student of students">  
-          <td>{{ student.nombre }}</td>  
-          <td>{{ student.libros }}</td>  
-        </tr>  
-      </tbody>  
-    </table>  
-  </div>  
+<h1 style="text-align: center;">Benvido o servicio de rexistro de libros do CEP Altamira</h1>
+
+<nav class="navbar bg-primary navbar-dark navbar-expand-sm">
+
+  <div class="container-fluid">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="alumnos">Rexistro de alumnos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="libros">Rexistro de libros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="consultaAlumnos">Consulta de alumnos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="consultaLibros">Consulta de libros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Curso académico</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+<router-outlet></router-outlet>
+
+
+
+
